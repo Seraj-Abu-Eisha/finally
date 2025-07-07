@@ -3,7 +3,7 @@ import './ItemManager.css';
 
 function ItemManager() {
   const [items, setItems] = useState([]);
-  const [form, setForm] = useState({ name: '', detail: '', amount: '' });
+  const [form, setForm] = useState({ name: '', detail: '', amount: ' ' });
   const [editingIndex, setEditingIndex] = useState(null);
   const [transactions, setTransactions] = useState([
     {
